@@ -6,8 +6,6 @@ namespace sg {
 namespace sup {
 namespace log {
 
-extern Logger *LOGINST;
-
 void Init();
 void Deinit();
 
@@ -19,6 +17,7 @@ public:
     void Log(const char *src, const char *str);
 };
 
+extern Logger *LOGINST;
 }
 
 template<typename... R>

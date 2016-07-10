@@ -30,7 +30,7 @@ Logger::~Logger() {
 }
 
 void Logger::Log(const char *src, const char *str) {
-    printf( "%s: %s", src, str ); //ToDo
+    printf( "%s: %s\n", src, str ); //ToDo
 }
 
 }
