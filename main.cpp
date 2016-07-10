@@ -11,7 +11,7 @@ int main(int argc, char** argv) {
         ep.map_size = 500;
         ep.grid_relaxations = 2;
 
-        sg::sim::staticenv se(1u, ep);
+        sg::sim::staticenv se(2u, ep);
         return 0;
     }
     catch (std::exception& ex) {

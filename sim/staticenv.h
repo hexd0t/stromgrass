@@ -1,4 +1,6 @@
 #include <cstdint>
+#include <vector>
+#include <glm/vec2.hpp>
 
 namespace sg {
 namespace sim {
@@ -17,6 +19,7 @@ public:
     ~staticenv();
 private:
     void generate_terrain(uint_fast64_t seed);
+    void relax_point_grid(std::vector<glm::vec2>& points);
 };
 }
 }

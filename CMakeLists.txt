@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 2.6)
 project (StromGrass)
 
-include_directories(dep/glm dep/boost)
+include_directories(dep/glm dep/boost/polygon/include)
 
 add_subdirectory(sup)
 add_subdirectory(sim)
